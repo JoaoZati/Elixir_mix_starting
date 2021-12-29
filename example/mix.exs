@@ -22,6 +22,7 @@ defmodule Example.MixProject do
   defp deps do
     [
       {:phoenix, "~> 1.1 or ~> 1.2"},
+      {:ex_doc, "~> 0.21", only: :dev, runtime: false},
     ]
   end
 end
